@@ -1,0 +1,51 @@
+courseName              pc== ProgrammingCourse class  AJC== AdvancedJavaCourse  IJC== IntroJavaCourse   IPC== IntroToProgrammingCourse
+Getter          PC- Could be concrete if setter was concrete in abstract class	AJC- Return	IJC- Was none- added Return	IPC- Return
+
+courseName
+Setter          PC- Needs to be abstract because all are different. Or maybe not even in at all because intro to java has no setter	 AJC- Standard assign to property	
+                IJC- No setter      IPC- JOptionPane Checks to make sure string isn’t null
+
+courseNumber
+Getter		PC- Only concrete if setter is concrete with variable	AJC- Return	IJC- Return	IPC- Return
+
+courseNumber
+Setter          PC- JOptionPane causes problems but could be solved with an output interface and all check for null	AJC- Standard assign to property	
+                IJC- Standard assign to property	IPC- JOptionPane Checks to make sure isn’t null
+
+Credits
+Getter          PC- Only concrete if setting is concrete with varibable	Was none added one  AJC- return	 IJC- Return	IPC- Return
+
+Credits
+Setter          PC- Could be if joptionpane/system used an output interface instead of hardcoding. 	AJC- JOptionPane problem .5 to 4	
+                IJC- Fixed the problem with the credit range according to error message .5 to 4 System.out.Println	IPC- JoptionPane Problem .5 o 4
+
+Prerequisites
+Getter          PC- n/a     AJC- Return property    IJC- Return	 IPC- n/a
+
+Prerequisites
+Setter          PC- N/a     AJC- JOptionPane problem	IJC- Normal set     IPC- n/a
+
+(nameOfClass)
+Constructor	PC- n/a     AJC- Passes in String courseName and String courseNumber. Sets course name and number using setter methods	
+                IJC- Passing in String courseName, string courseNumber. Sets courseName and number using standard to property (could change to using setter method…. Or not)	
+                IPC- Passing in String courseName and String CourseNumber. Sets course name and number using setter methods
+
+capitalizedCourseName
+getter          PC- n/a     AJC- .getCourseName().toUpperCase() return      IJC- n/a	IPC- n/a
+
+Properties
+courseName	PC- Only if both getter and setter are in       AJC- String   IJC- String     IPC- String
+
+courseNumber	PC- Only if both getter and setter are in	AJC- String     IJC- String	IPC- String
+
+Credits         PC- Only if both getter and setter are in	AJC- Double	IJC- double	IPC- Double
+
+Perquisites	PC- n/a     AJC- String     IJC- String     IPC- n/a
+
+
+
+
+
+
+
+
