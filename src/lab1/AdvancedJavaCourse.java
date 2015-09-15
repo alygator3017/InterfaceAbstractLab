@@ -3,7 +3,10 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * This class needs to be able to get and set prerequisites, credits, courseName
+ * and courseNumber. It also is able to capitalize the course name, which in the 
+ * grand scheme of the program seems a bit pointless since no other subclasses 
+ * do this. 
  *
  * @author Aly Schmidt-Zimmel
  * @version 1.00
