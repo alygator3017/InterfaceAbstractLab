@@ -1,0 +1,42 @@
+methods
+
+courseName              pc== ProgrammingCourse class  AJC== AdvancedJavaCourse  IJC== IntroJavaCourse   IPC== IntroToProgrammingCourse
+Getter          PC- add b/c how else are you supposed to access 	AJC- return	IJC- n/a	IPC- return
+
+courseName
+Setter          PC- add, override in classes so they can have the option for output	 AJC- JOptionPane 	
+                IJC- n/a      IPC- JOptionPane
+
+courseNumber
+Getter		PC- add 	AJC- return	IJC- return	IPC- return
+
+courseNumber
+Setter          PC- add	AJC- JOptionPane 	
+                IJC- set using property	IPC- JOptionPane
+
+Credits
+Getter          PC- add  AJC- return	 IJC- return 	IPC- return
+
+Credits
+Setter          PC-  add	AJC- JoptionPane	
+                IJC- set using property 	IPC- JOptionPane
+
+Prerequisites
+Getter          PC-  n/a IPC has no prereq    AJC- return     IJC- returnn	 IPC- n/a
+
+Prerequisites
+Setter          PC-  n/a IPC has no prereq    AJC- JOptionPane 	IJC-  using property    IPC- n/a
+
+(nameOfClass)
+Constructor	PC- n/a     AJC- setting using .setCourseName and .setCourseNumber	
+                IJC- set using properties	
+                IPC- set using .setCourseName and .setCourseNumber
+
+Properties
+courseName	PC- n/a      AJC- yes   IJC- yes     IPC- 
+
+courseNumber	PC- n/a	AJC- yes      IJC- yes	IPC- 
+
+Credits         PC- n/a	AJC- yes 	IJC-  yes	IPC- 
+
+Perquisites	PC-  n/a    AJC- yes     IJC-  yse    IPC- 
